@@ -1,14 +1,15 @@
 {
     "name": "muslimpro_scraper",
-    "version": "1.0.0",
-    "description": "",
+    "version": "0.0.1",
+    "description": "Scrape the prayer time list into a JSON",
     "main": "index.js",
     "scripts": {
+        "start": "node index.js",
         "dev": "nodemon index.js"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": ["muslimpro"],
+    "author": "Farhan Pradana Tallei",
+    "license": "MIT",
     "dependencies": {
         "express": "^4.18.1",
         "request-promise": "^4.2.6"
